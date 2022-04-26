@@ -1,7 +1,194 @@
-html, body {
-  margin: 0;
-  padding: 0;
+#mainTitle{
+margin-top:auto;
+/*font-family: 'Barlow Condensed', sans-serif;*/
+font-family: 'Teko', sans-serif;  
+line-height: 80%;
+color: black;
+font-size: 225px;
+padding: 0px;
+
 }
-canvas {
-  display: block;
+
+body{
+overflow-y: hidden;    
+overflow-x: hidden;
 }
+
+#about{
+font-family: 'Teko', sans-serif;
+color: red;
+font-size: 100px;
+position: relative;
+left: 0px;  
+top: -45px;
+    
+}
+
+#pageOne{
+font-family: 'Teko', sans-serif;
+color: red;   
+font-size: 100px;
+position: relative; 
+left: 0px;  
+top: -45px;
+}
+
+#pageTwo{
+font-family: 'Teko', sans-serif;
+color: red;   
+font-size: 100px;
+position: relative; 
+left: 0px;  
+top: -45px;
+}
+
+#pageThree{
+font-family: 'Teko', sans-serif;
+color: red;   
+font-size: 100px;
+position: relative; 
+left: 0px;  
+top: -45px;
+}
+
+.article{
+font-family: 'Teko', sans-serif;
+color: black;
+
+}
+
+#articleOne{
+position: relative;
+text-align: center;
+color: red;
+font-size: 30px;
+left: 700px;  
+bottom: 315px;
+}
+
+#articleTwo{
+position: relative;
+text-align: left;
+color: red;
+font-size: 30px;
+left: 950px;  
+bottom: 444px;
+}
+
+#articleThree{
+position: relative;
+text-align: center;
+color: red;
+font-size: 18px;
+left: 1200px;  
+bottom: 580px;
+}
+
+#articleFour{
+position: relative;
+text-align: center;
+color: red;
+font-size: 20px;
+left: 1440px;  
+bottom: 720px;
+}
+
+#hashtagOne{
+font-family: 'Teko', sans-serif;
+font-size: 80px;
+position: relative;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+/*  letter-spacing: .15em;  Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+animation-iteration-count: 10000;
+}
+
+#hashtagTwo{
+font-family: 'Teko', sans-serif;
+font-size: 80px;
+position: relative;
+left: 0px;
+top: -110px;    
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+/*  letter-spacing: .15em;  Adjust as needed */
+  animation: 
+    typing 3s steps(30, end),
+    blink-caret .5s step-end infinite;
+animation-iteration-count: 10000;
+}
+
+#hashtagThree{
+font-family: 'Teko', sans-serif;
+font-size: 80px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+/*  letter-spacing: .15em;  Adjust as needed */
+  animation: 
+    typing 3.2s steps(30, end),
+    blink-caret .5s step-end infinite;
+animation-iteration-count: 10000;
+}
+
+#hashtagFour{
+font-family: 'Teko', sans-serif;
+font-size: 80px;    
+}
+
+#hashtagFive{
+font-family: 'Teko', sans-serif;
+font-size: 80px;    
+}
+
+#hashtagSix{
+font-family: 'Teko', sans-serif;
+font-size: 80px;    
+}
+
+#hashtagSeven{
+font-family: 'Teko', sans-serif;
+font-size: 80px;    
+}
+
+#hashtagEight{
+font-family: 'Teko', sans-serif;
+font-size: 80px;    
+}
+
+/* The typing effect */
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+ The typewriter cursor effect 
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+#rectangle{
+width: 600px;
+height: 200px;
+color: aqua;
+position: relative;
+top: 100px;
+right: 0px;
+}
+
+
+
+
+
+
