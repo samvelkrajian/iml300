@@ -1,0 +1,32 @@
+.linkText{
+    text-align: center;
+    text-decoration-color: aqua;
+    
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Teko', sans-serif;
+font-size: 25px;
+margin:auto;
+margin-top: auto;
+}
+
+#header{
+  text-align: center;  
+    
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Teko', sans-serif;
+    
+font-size: 35px;
+    
+padding-top: 200px;
+}
+
+body{
+overflow:hidden;
+    
+}
+
+#project1{
+color: red;
+}
